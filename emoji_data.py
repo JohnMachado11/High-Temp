@@ -14,8 +14,6 @@ emojis_dictionary = {
 }
 
 
-
-
 def emoji_maker(*args):
     
     if args:
