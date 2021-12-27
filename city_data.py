@@ -40,7 +40,6 @@ cities_list = [
     "Guanajuato"
     "Kansas City",
     "Lisbon",
-    "London",
     "Madrid",
     "New York",
     "Mexico City",
