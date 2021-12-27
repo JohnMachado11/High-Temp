@@ -24,12 +24,10 @@ def main():
     player_count = inquirer.prompt(questions)
 
     if player_count['players'] == 1:
-        print(f"One player game {emojis[1]}\n")
-        sleep(1.5)
+        print(f"One player game {emojis[1]}\n"), sleep(1.5)
         city_selection(emojis, 1)
     else:
-        print(f"Two player game {emojis[6]}\n")
-        sleep(1.5)
+        print(f"Two player game {emojis[6]}\n"), sleep(1.5)
         city_selection(emojis, 2)
 
 
@@ -42,8 +40,7 @@ def city_selection(emojis, iterations):
     for i in range(iterations):
 
         if iterations > 1:
-            print(f"Player {i + 1} please make your choice.\n")
-            sleep(1.5)
+            print(f"Player {i + 1} please make your choice.\n"), sleep(1.5)
         
         questions = [
         inquirer.List('city',
@@ -76,7 +73,7 @@ def city_selection(emojis, iterations):
     player1 = Player("Player 1", player_choices[0], player_flag)
     player2 = Player(f"{name}", player_choices[1], player2_flag)
         
-    print(), print(f"{player1.name} choice is {player1.choice} {player1.flag}"), sleep(2)
+    print(f"{player1.name} choice is {player1.choice} {player1.flag}"), sleep(2)
     print(f"{player2.name} choice is {player2.choice} {player2.flag}\n"), sleep(2)
     
     temp_check(player1, player2)
@@ -97,22 +94,20 @@ def temp_check(*args):
         player.city_temp = temp
 
     loading(), print("\033c")
-    print(f"The temperature in {args[0].choice} {args[0].flag} is {args[0].city_temp}°F") 
-    sleep(2)
-    print(f"The temperature in {args[1].choice} {args[1].flag} is {args[1].city_temp}°F") 
+    print(f"The temperature in {args[0].choice} {args[0].flag} is {args[0].city_temp}°F"), sleep(2)
+    print(f"The temperature in {args[1].choice} {args[1].flag} is {args[1].city_temp}°F\n"), sleep(2)
 
-    sleep(2)
     if args[0].city_temp > args[1].city_temp:
+        print(f"{args[0].name} {args[0].flag} wins! {emojis[4]}"), sleep(1.2)
+        
         win_difference = args[0].city_temp - args[1].city_temp
         rd_win_diff = round(win_difference, 1)
-        print(), print(f"{args[0].name} {args[0].flag} wins! {emojis[4]}")
-        sleep(1.2)
         print(f"The difference in temperature is {rd_win_diff}°F\n")
     elif args[0].city_temp == args[1].city_temp:
-        print(), print(f"It's a tie! {args[0].flag} {args[1].flag} {emojis[5]}\n")
+        print(f"It's a tie! {args[0].flag} {args[1].flag} {emojis[5]}\n")
     else:
-        print(), print(f"{args[1].name} {args[1].flag} wins! {emojis[4]}")
-        sleep(1.2)
+        print(f"{args[1].name} {args[1].flag} wins! {emojis[4]}"), sleep(1.2)
+        
         lose_difference = args[1].city_temp - args[0].city_temp
         rd_lose_diff = round(lose_difference, 1)
         print(f"The difference in temperature is {rd_lose_diff}°F\n")
