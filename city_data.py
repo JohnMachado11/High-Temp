@@ -4,12 +4,13 @@ city_country_flags = {
     "Austin": ":United_States: ",
     "Berlin": ":Germany: ",
     "Boston": ":United_States: ",
+    "Brasilia": ":Brazil: ",
     "Buenos Aires": ":Argentina: ",
     "Chicago": ":United_States: ",
     "Dallas": ":United_States: ",
+    "Guanajuato": ":Mexico: ",
     "Kansas City": ":United_States: ",
     "Lisbon": ":Portugal: ",
-    "London": ":England: ",
     "Madrid": ":Spain: ",
     "New York": ":United_States: ",
     "Mexico City": ":Mexico: ",
@@ -20,9 +21,10 @@ city_country_flags = {
     "San Antonio": ":United_States: ",
     "San Francisco": ":United_States: ",
     "Sao Paulo": ":Brazil: ",
+    "Teresopolis": ":Brazil: ",
     "Venice": ":Italy: ",
     "Vienna": ":Austria: "
-}
+    }
 
 
 cities_list = [
@@ -31,9 +33,11 @@ cities_list = [
     "Austin",
     "Berlin",
     "Boston",
+    "Brasilia",
     "Buenos Aires",
     "Chicago",
     "Dallas",
+    "Guanajuato"
     "Kansas City",
     "Lisbon",
     "London",
@@ -47,6 +51,7 @@ cities_list = [
     "San Antonio",
     "San Francisco",
     "Sao Paulo",
+    "Teresopolis",
     "Venice",
     "Vienna"
     ]
