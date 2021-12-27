@@ -73,8 +73,8 @@ def city_selection(emojis, iterations):
     player1 = Player("Player 1", player_choices[0], player_flag)
     player2 = Player(f"{name}", player_choices[1], player2_flag)
         
-    print(f"{player1.name} choice is {player1.choice} {player1.flag}"), sleep(2)
-    print(f"{player2.name} choice is {player2.choice} {player2.flag}\n"), sleep(2)
+    print(f"{player1.name} selected {player1.choice} {player1.flag}"), sleep(2)
+    print(f"{player2.name} selected {player2.choice} {player2.flag}\n"), sleep(2)
     
     temp_check(player1, player2)
 
