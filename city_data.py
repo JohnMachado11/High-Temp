@@ -8,7 +8,6 @@ city_country_flags = {
     "Buenos Aires": ":Argentina: ",
     "Chicago": ":United_States: ",
     "Dallas": ":United_States: ",
-    "Guanajuato": ":Mexico: ",
     "Kansas City": ":United_States: ",
     "Lisbon": ":Portugal: ",
     "Madrid": ":Spain: ",
@@ -22,6 +21,7 @@ city_country_flags = {
     "San Francisco": ":United_States: ",
     "Sao Paulo": ":Brazil: ",
     "Teresopolis": ":Brazil: ",
+    "Tijuana": ":Mexico: ",
     "Venice": ":Italy: ",
     "Vienna": ":Austria: "
     }
@@ -37,7 +37,6 @@ cities_list = [
     "Buenos Aires",
     "Chicago",
     "Dallas",
-    "Guanajuato",
     "Kansas City",
     "Lisbon",
     "Madrid",
@@ -51,6 +50,7 @@ cities_list = [
     "San Francisco",
     "Sao Paulo",
     "Teresopolis",
+    "Tijuana",
     "Venice",
     "Vienna"
     ]
