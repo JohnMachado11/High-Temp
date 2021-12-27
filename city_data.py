@@ -37,7 +37,7 @@ cities_list = [
     "Buenos Aires",
     "Chicago",
     "Dallas",
-    "Guanajuato"
+    "Guanajuato",
     "Kansas City",
     "Lisbon",
     "Madrid",
