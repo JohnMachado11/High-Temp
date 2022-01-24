@@ -5,6 +5,8 @@ A 1 - 2 player computer terminal game which uses live temperature data of cities
 
 ![Imgur Image](https://i.imgur.com/bpdOWry.gif)
 
+![Imgur Image](https://i.imgur.com/aKRIwbd.gif)
+
 
 ## Installation
 
