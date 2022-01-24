@@ -3,7 +3,7 @@
 A 1 - 2 player computer terminal game which uses live temperature data of cities using the API from weatherapi.com. Higher the temperature of your city and you win! 
 
 
-![Imgur Image](https://i.imgur.com/4wK5616.gif)
+![Imgur Image](https://i.imgur.com/bpdOWry.gif)
 
 
 ## Installation
