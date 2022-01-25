@@ -31,6 +31,8 @@ Create a free account to access an API key
 
 api_key = "weatherapi.com api key goes here"
 
+# After placing the api key, execute high_temp.py to play!
+
 ```
 
 ## Windows OS - Proper Emoji Display in Terminal 
