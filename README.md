@@ -18,7 +18,7 @@ pip install inquirer
 pip install pyfiglet
 ```
 
-# weatherAPI Key
+## weatherAPI Key
 Create a free account to access an API key
 
 [weatherapi.com](https://www.weatherapi.com/)
