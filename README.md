@@ -42,6 +42,6 @@ python high_temp.py
 
 ## Windows OS - Proper Emoji Display in Terminal 
 
-On the Windows OS to see emojis properly, download Windows Terminal from Microsoft. 
+The default terminal (command prompt) on Windows OS may not display emojis. An alternative terminal is "Windows Terminal" from Microsoft which displays all emojis except country flags. 
 
 [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701#activetab=pivot:overviewtab)
